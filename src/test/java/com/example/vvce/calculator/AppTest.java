@@ -1,10 +1,9 @@
 package com.example.vvce.calculator;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-
 import org.junit.jupiter.api.Test;
-
-public class AppTest {
+ 
+public class AppTest { 
 	App app=new App();
 	
 	void testAdd() {
@@ -16,5 +15,5 @@ public class AppTest {
     }
     void testmultiple() {
         assertEquals(15,app.mul(20,5));
-}
+    }
 }
